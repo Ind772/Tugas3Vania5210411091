@@ -56,10 +56,7 @@ class OrderitemsController extends Controller {
 
       return Response.json({"success": true, "data": orderItem});
     } catch (e) {
-      return Response.json({
-        "error": "Bad Request",
-        "message": e.toString()
-      });
+      return Response.json({"error": "Bad Request", "message": e.toString()});
     }
   }
 

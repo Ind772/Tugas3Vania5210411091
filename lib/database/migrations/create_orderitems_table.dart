@@ -11,19 +11,8 @@ class CreateOrderitemsTable extends Migration {
       integer("quantity", length: 11);
       integer("size", length: 11);
       primary("order_item");
-      // Foreign keys menggunakan method foreign()
-      foreign(
-        "order_num",
-        "orders",
-        "order_num",
-        onDelete: "cascade"
-      );
-      foreign(
-        "prod_id",
-        "products",
-        "prod_id",
-        onDelete: "cascade"
-      );
+      foreign("order_num", "orders", "order_num", onDelete: "cascade");
+      foreign("prod_id", "products", "prod_id", onDelete: "cascade");
     });
   }
 
