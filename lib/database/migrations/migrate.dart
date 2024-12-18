@@ -4,6 +4,8 @@ import 'package:tugas_vania_indra/database/migrations/create_orderitems_table.da
 import 'package:tugas_vania_indra/database/migrations/create_orders_table.dart';
 import 'package:tugas_vania_indra/database/migrations/create_productnotes_table.dart';
 import 'package:tugas_vania_indra/database/migrations/create_products_table.dart';
+import 'package:tugas_vania_indra/database/migrations/create_users_table.dart';
+import 'package:tugas_vania_indra/database/migrations/create_users_token.dart';
 import 'package:tugas_vania_indra/database/migrations/create_vendors_table.dart';
 import 'package:vania/vania.dart';
 
@@ -26,6 +28,8 @@ class Migrate {
     await CreateProductsTable().up();
     await CreateOrderitemsTable().up();
     await CreateProductnotesTable().up();
+    await CreateUsersTable().up();
+    await CreateUsersToken().up();
   }
 
   dropTables() async {
@@ -35,5 +39,7 @@ class Migrate {
     await CreateProductsTable().down();
     await CreateOrderitemsTable().down();
     await CreateProductnotesTable().down();
+    await CreateUsersTable().down();
+    await CreateUsersToken().down();
   }
 }
