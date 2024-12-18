@@ -7,9 +7,23 @@
 # Dokumentasi CRUD dan Database
 ### Relational Database Awal
 ![image](https://github.com/user-attachments/assets/3839a243-293a-4851-954b-243bea9b1be9)
+### Relational Database Setelah Login Auth
+![image](https://github.com/user-attachments/assets/1b39f920-b969-4023-a108-61b091bd4b96)
+
+# Testing Login, Register, dan Auth
+### Register
+![image](https://github.com/user-attachments/assets/831a39bd-d0bc-4ca0-a2fd-8776249ec03f)
+
+### Login
+![image](https://github.com/user-attachments/assets/4e7f7e85-a99e-4723-8d8d-e3e0afe9a8e0)
+
+### Auth
+* Sebelum login
+![image](https://github.com/user-attachments/assets/593a926a-6464-412f-89e4-d198334bd1fc)
+* Setelah Login
+![image](https://github.com/user-attachments/assets/ad566ad3-3892-4103-873d-5667a224082d)
 
 # Testing CRUD pada Vania menggunakan Thunder Client
-
 ### Tabel Customers
 * POST
 ![image](https://github.com/user-attachments/assets/a3128da5-a2bd-4fcb-a6f4-c3dff302965a)
@@ -64,12 +78,12 @@ Setelah dihapus
 * PUT
 Sebelum diubah
 ![image](https://github.com/user-attachments/assets/02691f50-1e4f-4bef-9c34-9a655b671b78)
-Seteleh diubah
+Setelah diubah
 ![image](https://github.com/user-attachments/assets/324fd412-e7ba-44bc-ac85-1b3d465cd48b)
 * DELETE
 Sebelum diubah
 ![image](https://github.com/user-attachments/assets/57a6ac72-a16f-402d-b81d-977eb626f94e)
-Seteleh diubah
+Setelah diubah
 ![image](https://github.com/user-attachments/assets/22f9ca6b-13ce-4915-9cd7-153a81a891fb)
 
 ### Tabel OrderItems
@@ -80,12 +94,12 @@ Seteleh diubah
 * PUT
 Sebelum diubah
 ![image](https://github.com/user-attachments/assets/e39b3923-6b41-4e82-b1f8-355ab7addc86)
-Seteleh diubah
+Setelah diubah
 ![image](https://github.com/user-attachments/assets/af041c9c-89e5-4a3d-9cb7-6e7fa415bdcb)
 * DELETE
 Sebelum diubah
 ![image](https://github.com/user-attachments/assets/42cb8e3c-ee43-4378-a03b-fe6cc7a5e4e9)
-Seteleh diubah
+Setelah diubah
 ![image](https://github.com/user-attachments/assets/5f345594-245c-48e7-927b-92f99b15bac5)
 
 ### Tabel ProductNotes
@@ -96,10 +110,10 @@ Seteleh diubah
 * PUT
 Sebelum diubah
 ![image](https://github.com/user-attachments/assets/9154d84c-3e35-497b-91b3-3a00a87fb6b4)
-Seteleh diubah
+Setelah diubah
 ![image](https://github.com/user-attachments/assets/05b8f8d0-0b5a-4681-a8d2-43ecc9f3eccc)
 * DELETE
 Sebelum diubah
 ![image](https://github.com/user-attachments/assets/4e5843f9-bf15-4008-95bf-ac557f60344e)
-Seteleh diubah
+Setelah diubah
 ![image](https://github.com/user-attachments/assets/56f388b2-8f4f-4de5-8835-9a81ba8768fe)
